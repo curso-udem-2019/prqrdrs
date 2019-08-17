@@ -38,7 +38,7 @@ public class PersonaController {
             response = String.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Restorna la lista de personas en JSON"),})
-    @RequestMapping(value = "personas/", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public List<PersonaDto> findAll() {
         return personService.getPersonas();
