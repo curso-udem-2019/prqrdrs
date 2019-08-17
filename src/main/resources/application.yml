@@ -18,3 +18,5 @@ spring:
       settings: {trace: false, web-allow-others: true}
   liquibase:
     change-log: classpath:/db/db-changelog.yml
+server:
+  port: 8090
