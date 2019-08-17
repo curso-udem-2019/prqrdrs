@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.java.udem.prqrdrs.controller;
+package edu.udem.prqrdrs.controller;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.java.udem.prqrdrs.dto.PersonaDto;
+import edu.udem.prqrdrs.dto.PersonaDto;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

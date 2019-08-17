@@ -1,4 +1,4 @@
-package edu.java.udem.prqrdrs.prqrdrs;
+package edu.udem.prqrdrs.prqrdrs;
 
 
 import org.junit.runner.RunWith;
