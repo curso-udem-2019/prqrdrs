@@ -1,6 +1,6 @@
 # prqrdrs
 
-Proyecto para ser trabajado durante usando las ideas de los reuisitos de  del curso de Java avanzado con Spring de la universidad de Medellin
+Proyecto para ser trabajado durante usando las ideas de los requisitos del curso de Java avanzado con Spring de la universidad de Medellin
 
 ver sitio taiga- [prqdrs](https://tree.taiga.io/project/jpramirezl-proyecto-taxi/timeline)
 ## Getting Started - Comenzando
