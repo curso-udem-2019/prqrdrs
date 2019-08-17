@@ -1,8 +1,8 @@
 # prqrdrs
 
-Proyecto para ser trabajado al final del curso de Java avanzado con Spring de la universidad de Medellin
+Proyecto para ser trabajado durante usando las ideas de los reuisitos de  del curso de Java avanzado con Spring de la universidad de Medellin
 
-
+ver sitio taiga- [prqdrs](https://tree.taiga.io/project/jpramirezl-proyecto-taxi/timeline)
 ## Getting Started - Comenzando
 
 Este proyecto tiene como base el framework Spring. Tiene una arquitectura utilizada por varias aplicaciones corporativas y pretende ser un template funcional con las tendecias utilizadas actualmente en la industria. Esta basado en varias referencias.
