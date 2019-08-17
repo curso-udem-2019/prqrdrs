@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://udem.edu/prqrdrs/ws/soap"
+           targetNamespace="http://udem.edu/prqrdrs/ws/soap" elementFormDefault="qualified">
+
+    <xs:element name="getPersonaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="login" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPersonaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persona" type="tns:persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="persona">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellido" type="xs:string"/>
+            <xs:element name="password" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="login" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -5,6 +5,7 @@ target/
 !**/src/test/**
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+./src/main/java/edu/udem/prqrdrs/ws/soap
 
 ### STS ###
 .apt_generated

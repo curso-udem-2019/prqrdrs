@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.java.udem.prqrdrs.controller;
+package edu.udem.prqrdrs.controller;
 
-import edu.java.udem.prqrdrs.dto.PersonaDto;
+import edu.udem.prqrdrs.dto.PersonaDto;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import edu.java.udem.prqrdrs.service.PersonaService;
+import edu.udem.prqrdrs.service.PersonaService;
 import io.swagger.annotations.ApiParam;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

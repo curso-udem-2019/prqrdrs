@@ -1,6 +1,6 @@
-package edu.java.udem.prqrdrs.service;
+package edu.udem.prqrdrs.service;
 
-import edu.java.udem.prqrdrs.dto.PersonaDto;
+import edu.udem.prqrdrs.dto.PersonaDto;
 import java.util.List;
 
 /**

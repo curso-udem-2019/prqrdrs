@@ -1,8 +1,8 @@
-package edu.java.udem.prqrdrs.service;
+package edu.udem.prqrdrs.service;
 
-import edu.java.udem.prqrdrs.dao.PersonaRepository;
-import edu.java.udem.prqrdrs.dto.PersonaDto;
-import edu.java.udem.prqrdrs.entities.PersonaEntity;
+import edu.udem.prqrdrs.dao.PersonaRepository;
+import edu.udem.prqrdrs.dto.PersonaDto;
+import edu.udem.prqrdrs.entities.PersonaEntity;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

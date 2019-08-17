@@ -14,7 +14,7 @@ databaseChangeLog:
                             primaryKey: true
                             nullable: false
                     - column:
-                        name: login
+                        name: c
                         type: varchar(255)                            
                     - column:
                         name: email

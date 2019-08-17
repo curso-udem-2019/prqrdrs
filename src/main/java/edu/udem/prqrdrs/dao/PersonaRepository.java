@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.java.udem.prqrdrs.dao;
+package edu.udem.prqrdrs.dao;
 
-import edu.java.udem.prqrdrs.entities.PersonaEntity;
+import edu.udem.prqrdrs.entities.PersonaEntity;
 import javax.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 /**
