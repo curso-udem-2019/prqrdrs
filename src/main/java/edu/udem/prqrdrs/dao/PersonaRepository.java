@@ -7,6 +7,7 @@ package edu.udem.prqrdrs.dao;
 
 import edu.udem.prqrdrs.entities.PersonaEntity;
 import javax.transaction.Transactional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 /**
  *

@@ -48,7 +48,7 @@ public class TestPersonaController {
         
         HttpEntity<String> entity = new HttpEntity<String>(json, headers);
         ResponseEntity<String> response = restTemplate.exchange(
-          createURLWithPort("/personas/"), HttpMethod.POST, entity, String.class);
+          createURLWithPort("/persona/"), HttpMethod.POST, entity, String.class);
         HttpStatus status = response.getStatusCode();
         Assert.assertEquals(status,HttpStatus.OK );
     }    
@@ -67,10 +67,11 @@ public class TestPersonaController {
         String json = objectMapper.writeValueAsString(persona);
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
         ResponseEntity<String> response = restTemplate.exchange(
-          createURLWithPort("personas/3"), HttpMethod.GET, entity, String.class);
+          createURLWithPort("/persona/3"), HttpMethod.GET, entity, String.class);
         
         
         String expected = objectMapper.writeValueAsString(persona);
+        System.out.println(response.getBody());
         JSONAssert.assertEquals(expected, response.getBody(), false);
     }
     private String createURLWithPort(String uri) {
