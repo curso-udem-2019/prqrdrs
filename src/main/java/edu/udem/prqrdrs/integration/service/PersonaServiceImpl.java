@@ -1,6 +1,6 @@
-package edu.udem.prqrdrs.service;
+package edu.udem.prqrdrs.integration.service;
 
-import edu.udem.prqrdrs.dao.PersonaRepository;
+import edu.udem.prqrdrs.integration.dao.PersonaRepository;
 import edu.udem.prqrdrs.dto.PersonaDto;
 import edu.udem.prqrdrs.entities.PersonaEntity;
 import java.util.ArrayList;
@@ -43,7 +43,7 @@ public class PersonaServiceImpl implements PersonaService {
 
     @Override
     public PersonaDto getUserByLogin(String login) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.getDTO(personaRepository.findByLogin(login));
     }
 
     private PersonaDto getDTO(PersonaEntity user) {

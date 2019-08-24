@@ -1,4 +1,4 @@
-package edu.udem.prqrdrs.service;
+package edu.udem.prqrdrs.integration.service;
 
 import edu.udem.prqrdrs.dto.PersonaDto;
 

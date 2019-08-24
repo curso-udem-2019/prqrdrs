@@ -1,0 +1,30 @@
+databaseChangeLog:
+    - changeSet:
+        id: 1
+        author: jpramirez
+        changes:
+            - createTable:
+                tableName: users
+                columns:
+                    - column:
+                        name: id
+                        type: int
+                        autoIncrement: true
+                        constraints:
+                            primaryKey: true
+                            nullable: false
+                    - column:
+                        name: login
+                        type: varchar(255)                            
+                    - column:
+                        name: email
+                        type: varchar(255)
+                    - column:
+                        name: password
+                        type: varchar(255)
+                    - column:
+                        name: nombre
+                        type: varchar(255)
+                    - column:
+                        name: apellido
+                        type: varchar(255)

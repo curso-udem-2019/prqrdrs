@@ -1,8 +1,7 @@
 package edu.udem.prqrdrs.ws;
 
 import edu.udem.prqrdrs.dto.PersonaDto;
-import edu.udem.prqrdrs.entities.PersonaEntity;
-import edu.udem.prqrdrs.service.PersonaService;
+import edu.udem.prqrdrs.integration.service.PersonaService;
 import edu.udem.prqrdrs.ws.soap.GetPersonaRequest;
 import edu.udem.prqrdrs.ws.soap.GetPersonaResponse;
 import edu.udem.prqrdrs.ws.soap.Persona;

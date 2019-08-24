@@ -1,4 +1,4 @@
-package edu.udem.prqrdrs.controller;
+package edu.udem.prqrdrs.endtoend.controller;
 
 import edu.udem.prqrdrs.dto.PersonaDto;
 import edu.udem.prqrdrs.ws.rest.WeatherRoot;
